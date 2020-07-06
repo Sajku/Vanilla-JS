@@ -22,7 +22,7 @@ const game = () => {
     const hands = document.querySelectorAll(".hands img");
 
     hands.forEach((hand) => {
-      hand.addEventListener("animationend", function () {
+      hand.addEventListener("animationed", function () {
         this.style.animation = "";
       });
     });
