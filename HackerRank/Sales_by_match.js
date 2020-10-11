@@ -29,14 +29,14 @@ function readLine() {
 function sockMerchant(n, ar) {
   ar.sort();
 
-  let counter = 0;
+  let sockCounter = 0;
   for (let i = 0; i < n; i++) {
     if (ar[i] == ar[i + 1]) {
       i++;
-      counter++;
+      sockCounter++;
     }
   }
-  return counter;
+  return sockCounter;
 }
 
 function main() {
